@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="password" value="abc@123"/>
+  <parameter name="username" value="Greens@gmail"/>
+  <test name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="org.test.ParameterEx">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="qitBrowser"/>
+          <include name="tc1"/>
+        </methods>
+      </class> <!-- org.test.ParameterEx -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
